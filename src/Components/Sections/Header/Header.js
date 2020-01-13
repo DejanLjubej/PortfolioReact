@@ -17,12 +17,16 @@ function Header() {
                             </Link>
                         </div>
                         <div className={"firstNavigationDiv " + navigationStyle}>
-                            <NavigationButton name="Projects" className={navigationButtonStyle} to="/projects"/>
-                            <NavigationButton name="Work experience" className={navigationButtonStyle} to="/workexperience" />
+                            <NavigationButton name="Projects" 
+                            className={navigationButtonStyle} to="/projects"/>
+                            <NavigationButton name="Work experience" 
+                            className={navigationButtonStyle} to="/workexperience" />
                         </div>
                         <div className={"secondNavigationDiv " + navigationStyle}>
-                            <NavigationButton name="Education" className={navigationButtonStyle} to="/education" />
-                            <NavigationButton name="Skills" className={navigationButtonStyle} to="/skills" />
+                            <NavigationButton name="Education" 
+                            className={navigationButtonStyle} to="/education" />
+                            <NavigationButton name="Skills" 
+                            className={navigationButtonStyle} to="/skills" />
                         </div>
                     </div>
                 </header>
