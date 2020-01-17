@@ -1,19 +1,11 @@
 import React, { Component } from 'react'
+import Projects from '../Projects/Projects.js';
 
 export default class HomePage extends Component {
     render() {
         return (
             <div>
-               abcasdf
-               abcasdfasdf
-               abcasdfasdfasdf
-               abcasdfasdfasdfasdf
-               abcasdfasdfasdfa
-               defaultdsf
-               abcasdfasdfasdfads
-               faasdasdfas
-               asdfvbsdfgdf
-               asdfdsdgsdf
+                <Projects></Projects>
                <br/>
             </div>
         )
