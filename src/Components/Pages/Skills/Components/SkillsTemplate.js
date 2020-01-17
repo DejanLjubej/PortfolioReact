@@ -3,8 +3,8 @@ import propTypes from 'prop-types';
 
 let domain=window.location.origin;
 
-export default function ProjectTable(props) {
-    let urlProjects=domain+"/projects";
+export default function SkillsTemplate(props) {
+    let urlProjects=domain+"/skills";
     let urlHome=domain+'/homePage';
 
     let  projectContainer = (
@@ -74,13 +74,4 @@ export default function ProjectTable(props) {
     }else{
         return null;
     }
-}
-
-ProjectTable.propTypes ={
-    name: propTypes.string,
-    tableClassName: propTypes.string,
-    href: propTypes.string,
-    src: propTypes.string,
-    alt: propTypes.string,
-
 }
