@@ -1,12 +1,14 @@
-import React from 'react'
-import SkillTemplate from './../SkillsTemplate.js';
+import ItemDisplayTemplate from '../../../Templates/ItemDisplayTemplate/ItemDisplayTemplate.js';
+import React, { Component } from 'react'
 
 let githubLogo= <img className="linkLogoGitHub" src="./ProjectGraphics/icon_github.png" alt="gitHub"/>;
 let playStoreLogo= <img className="linkLogoPlaystore" src="./ProjectGraphics/icon_playstore.png" alt="PlayStore"/>;
 
-export default function Flutter() {
-    return (
-        <SkillTemplate
+
+export default function Flutter(props) {
+        return (
+            <ItemDisplayTemplate
+            site="/skills"
             tableClassName=""
                 
             name="Flutter (Dart)"
@@ -30,5 +32,5 @@ export default function Flutter() {
             technologiesUsed={"Dart, Flutter, VS Code"}
             border="border"
         />
-    )
+       )
 }

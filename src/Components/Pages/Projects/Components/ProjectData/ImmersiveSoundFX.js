@@ -1,5 +1,5 @@
 import React from 'react'
-import ProjectTemplate from './../ProjectTemplate.js'
+import ItemDisplayTemplate from '../../../Templates/ItemDisplayTemplate/ItemDisplayTemplate.js';
 
 let githubLogo= <img className="linkLogoGitHub" src="./ProjectGraphics/icon_github.png" alt="gitHub"/>;
 let playStoreLogo= <img className="linkLogoPlaystore" src="./ProjectGraphics/icon_playstore.png" alt="PlayStore"/>;
@@ -7,7 +7,8 @@ let playStoreLogo= <img className="linkLogoPlaystore" src="./ProjectGraphics/ico
 export default function ImmersiveSoundFX() {
     
     return (
-        <ProjectTemplate 
+        <ItemDisplayTemplate
+            site="/projects" 
             tableClassName=""
             
             name="Immersive Sound FX"

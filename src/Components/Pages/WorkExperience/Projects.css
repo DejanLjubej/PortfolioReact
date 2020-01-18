@@ -1,0 +1,17 @@
+.linkLogoGitHub{
+    height: 20px;
+    position: relative;
+    margin: 5px 5px 0 0;
+}
+.linkLogoPlaystore{
+    height: 20px;
+    position: relative;
+    margin: 5px 5px 0 0;
+}
+.imagePreview{
+    height: 300px;
+    margin: 10px;
+}
+.border{
+    border: solid 1px;
+}

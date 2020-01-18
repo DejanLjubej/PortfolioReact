@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import HomePage from '../../Pages/HomePage/HomePage.js';
 import Projects from '../../Pages/Projects/Projects.js';
 import Skills from '../../Pages/Skills/Skills.js';
+import Education from '../../Pages/Education/Education.js';
+import WorkExperience from '../../Pages/WorkExperience/WorkExperience.js';
 import { Route } from 'react-router-dom';
 import './Body.css'
 
@@ -11,8 +13,8 @@ export default class Body extends Component {
             <div className="BodyMainStyle">
                 <Route path="/homePage" exact component={HomePage} />
                 <Route path="/projects" component={Projects} />
-                <Route path="/workexperience" component={HomePage}/>
-                <Route path="/education" component={HomePage}/>
+                <Route path="/workexperience" component={WorkExperience}/>
+                <Route path="/education" component={Education}/>
                 <Route path="/skills" component={Skills}/>       
             </div>
     
